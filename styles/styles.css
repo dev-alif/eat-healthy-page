@@ -1,0 +1,86 @@
+/* global styles */
+*{
+    margin: 0;
+    /* font-family: "Montserrat", serif; */
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.button{
+    font-family: "Montserrat", serif;
+    padding: 23px 43px;
+    color: white;
+    font-size: 18px;
+    /* background-image: linear-gradient(to right, #FB984C , #FE4A2E); */
+    background-image: linear-gradient(to right, orange , red);
+    border: 0;
+    border-radius: 40px;
+}
+
+.button:hover{
+    background-image: linear-gradient(to right, red, orange);
+    cursor: pointer;
+}
+
+/* header styles */
+header{
+    font-family: "Montserrat", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-left, .hero-right{
+    width: 45%;
+}
+
+.hero-left h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #575757;
+}
+
+.hero-left p{
+    font-size: 20px;
+    color: #828282;
+    margin: 40px 0 50px 0;
+}
+
+/* about section styles */
+.about-bg{
+    background: url('../images/shapes/7.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about{
+    font-family: "Montserrat", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 65px;
+    margin-top: 100px;
+}
+
+.about-left, .about-right{
+    width: 35%;
+}
+
+.about-left img{
+    width: 338px;
+}
+
+.about-right h2{
+    color: #707070;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.about-right p{
+    color: #707070;
+    font-size: 18px;
+    margin: 32px 0 90px 0;
+}
